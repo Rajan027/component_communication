@@ -1,0 +1,9 @@
+<h4>Parent-to-Child and Child-to-Parent (Input, Output)</h4>
+<p *ngIf="newItem">Parent Notified - {{newItem}} has been added</p>
+<app-child [items]="items" (itemAdded)="itemAdded($event)"></app-child>
+
+<h4>Access Child properties and methods using @ViewChild</h4>
+<app-child1></app-child1>
+
+<h4>Non-related Components Communication by using Service</h4>
+<p>Employee Details: </p> {{employee | json}}

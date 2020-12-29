@@ -1,0 +1,10 @@
+<div class="form-group">
+    <label for="item">Add New Item</label>
+    <input type="text" id="item" class="form-control" #item (keyup.enter)="addNewItem(item)">
+</div>
+
+<div class="form-group">
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let item of items">{{item}}</li>
+    </ul>
+</div>
