@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { Child1Component } from './child1/child1.component';
 import { Parent1Component } from './parent1/parent1.component';
+import { LearnSubjectsComponent } from './learn-subjects/learn-subjects.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { Parent1Component } from './parent1/parent1.component';
     ParentComponent,
     ChildComponent,
     Child1Component,
-    Parent1Component
+    Parent1Component,
+    LearnSubjectsComponent
   ],
   imports: [
     BrowserModule,
